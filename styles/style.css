@@ -81,14 +81,15 @@ main {
 .courses{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap:24px ;
+    grid-column-gap:24px ;   
 }
 .course{
-    width:252.42px ;
+    width:240px ;
     height: 269.79px;
     padding: 15px;
-    box-shadow:0.2px 0.2px 0.2px 0.2px #b5b3b39a;
+    box-shadow:0.5px 0.5px 1px .1px #b5b3b39a;
     border-radius: 10px;
+    
 }
 
 
